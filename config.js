@@ -7,7 +7,7 @@ module.exports = {
     database: {
         host: 'localhost',
         user: 'root',
-        password: 'your_password',
+        password: 'NEW_SECURE_PASSWORD',
         database: 'integration_db'
     }
 };
