@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get('/sync', (req, res) => {
     // Logic to synchronize data
-    res.send({ message: 'Data synchronized!', status: 'success' });
+    res.send({ message: 'Data synchronized successfully!', status: 'success' });
 });
 
 module.exports = router;
