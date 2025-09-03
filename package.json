@@ -1,6 +1,6 @@
 {
   "name": "integration-cloud-multi-plateforme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Facilite l'intégration des services cloud dans un environnement multi-plateforme pour améliorer la productivité des développeurs.",
   "main": "index.js",
   "scripts": {
