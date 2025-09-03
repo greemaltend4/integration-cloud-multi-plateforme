@@ -10,7 +10,7 @@ CREATE TABLE utilisateurs (
 CREATE TABLE synchronisations (
     id INT AUTO_INCREMENT PRIMARY KEY,
     utilisateur_id INT,
-    service VARCHAR(100),
+    service VARCHAR(100) NOT NULL,
     date_synchronisation DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (utilisateur_id) REFERENCES utilisateurs(id),
     INDEX (utilisateur_id)  -- Added index on utilisateur_id for faster joins
